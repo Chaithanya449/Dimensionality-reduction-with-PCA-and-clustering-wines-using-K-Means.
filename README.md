@@ -1,28 +1,3 @@
-# Dimensionality-reduction-with-PCA-and-clustering-wines-using-K-Means.
 🍷 Wine Dataset Clustering using PCA & K-Means
-📌 Project Overview
 
-This project demonstrates how Principal Component Analysis (PCA) can be used for dimensionality reduction and how K-Means Clustering can help in grouping similar wines.
-
-The main goal is to simplify the high-dimensional wine dataset into fewer features using PCA, and then apply clustering to discover natural groupings. This project is a hands-on implementation of Unsupervised Machine Learning.
-⚙️ Key Steps
-1.Data Preprocessing
-2.Loaded the Wine dataset.
-3.Handled feature scaling using StandardScaler.
-4.Dimensionality Reduction with PCA
-5.Reduced high-dimensional features into 2 principal components.
-6.Retained maximum variance for better visualization.
-7.Clustering with K-Means
-8.Implemented K-Means to group wines into clusters.
-9.Used PCA components to visualize clustering in 2D.
-10.Visualization
-🛠️ Tech Stack
-Python
-NumPy, Pandas
-Scikit-learn (PCA, KMeans, StandardScaler)
-📊 Results & Insights
-PCA successfully reduced dimensionality while preserving variance.
-K-Means clustering revealed meaningful groupings in the dataset.
-Visualization showed distinct clusters of wines in the PCA-reduced space.
-Matplotlib & Seaborn for visualization
-
+This project applies Principal Component Analysis (PCA) for dimensionality reduction and K-Means Clustering to group wines based on their features. The purpose is to simplify high-dimensional data into fewer components while still retaining meaningful variance, making clustering more effective and visualization possible in 2D. The workflow involved preprocessing the data, applying PCA, running K-Means, and visualizing the resulting clusters. One of the challenges faced was selecting the optimal number of clusters and ensuring minimal information loss during dimensionality reduction. Future improvements could include experimenting with other clustering algorithms like DBSCAN or Hierarchical Clustering, and comparing PCA with t-SNE or UMAP. In conclusion, this project demonstrates how combining dimensionality reduction and clustering provides powerful insights into complex datasets in an unsupervised learning setting.
